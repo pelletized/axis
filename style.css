@@ -170,6 +170,51 @@ padding-top:20px;
 margin:50px;
 margin-bottom:0;
 }
+
+/* spinny starburst */
+.wrap-claim {
+position:relative;
+margin:50px 0;
+left:15px;
+}
+
+.claim {
+	position:absolute;
+	top:20px;
+	left:3px;
+	width:80%;					
+	font-size:160%;
+	line-height:160%;
+	font-weight:bold;
+	text-align:center;
+	
+}
+
+#burst-12 { background: #212121; width: 215px; height: 200px; position: relative; text-align: center; } 
+#burst-12:before, #burst-12:after { content: ""; position: absolute; top: 0; left: 0; height: 200px; width: 215px; background: #212121; } 
+#burst-12:before { -webkit-transform: rotate(30deg); -moz-transform: rotate(30deg); -ms-transform: rotate(30deg); -o-transform: rotate(30deg); } 
+#burst-12:after { -webkit-transform: rotate(60deg); -moz-transform: rotate(60deg); -ms-transform: rotate(60deg); -o-transform: rotate(60deg); }
+
+#burst-12 {
+	-webkit-animation: rotation 10s infinite linear;
+	-moz-animation: rotation 10s infinite linear;
+	animation: rotation 10s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+	from {-webkit-transform: rotate(0deg);}
+	to   {-webkit-transform: rotate(359deg);}
+}
+
+@-moz-keyframes rotation {
+	from {-moz-transform: rotate(0deg);}
+	to   {-moz-transform: rotate(359deg);}
+}
+
+@keyframes rotation {
+	from {transform: rotate(0deg);}
+	to   {transform: rotate(359deg);}
+}
 /* - - - *contact form - - - */
 label {
 float:left;

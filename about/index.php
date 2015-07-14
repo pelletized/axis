@@ -12,7 +12,9 @@ include('../includes/header.php');
 	<div id="main">
 		<h1>About Axis Automotive Products</h1>
 		
-		<img src="/images/available-map.jpg" width="815" height="733" alt="" />
+		<!--<img src="/images/available-map.jpg" width="815" height="733" alt="" />-->
+		<img src="/images/usa-map.png" width="815" height="495" alt="" />
+		<h2>Available in all states</h2>
 		<br /><br />
 		<table cellpadding="0" cellspacing="0" border="0" id="compare-chart">
 			<tr>

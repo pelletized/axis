@@ -23,6 +23,12 @@ $description = 'Road hazard plans that protect your tires and wheels, and more.'
 			
 			<h3>Limited Roadside Assistance:</h3>
 			<p>In the event of damage caused by a road hazard, we will dispatch help to assist in changing the spare tire. If no spare is available, we will tow your vehicle to the nearest available service station.</p>
+			
+			<div class="wrap-claim">
+				<div id="burst-12"></div>			
+				<p class="claim">To file a claim, or check on claim status call our Claim center: 1-800-338-2680<br />
+				Menu option #1, #3</p>
+			</div><!--/.wrap-claim-->					
 				
 		</div>	
 		<div class="col border-left">
@@ -83,7 +89,19 @@ $description = 'Road hazard plans that protect your tires and wheels, and more.'
 
 
 
+<script>		
+function toggle() {
+	var el = document.getElementById("claim");
+	if ( el.style.visibility != 'hidden' ) {
+		el.style.visibility = 'hidden';
+	}
+	else {
+		el.style.visibility = '';
+	}
+}
 
+//setInterval(toggle, 2000);			
+</script>
 
 </body>
 </html>

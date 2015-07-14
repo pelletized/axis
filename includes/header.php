@@ -20,7 +20,11 @@
 		<li><a href="/about/">About</a></li>
 		<li><a href="/axis-road-hazard/">Axis Road Hazard Plans</a></li>
 		<li><a href="/contact/">Contact</a></li>
-		<li id="phone-nav"><img src="../images/phone.png" width="25" height="25" alt="phone" /> 800-396-7295</li>
+		<li id="phone-nav">
+			<img src="/images/phone.png" width="25" height="25" alt="phone" /> 
+			800-396-7295<br />
+			24 hr roadside service call: 1-866-312-4696		
+		</li>
 	  </ul>
 	  <a href="/"><img src="/images/logo.jpg" width="248" height="248" alt="Axis Automotive Products" id="logo" /></a>
 	  <img src="/images/roadway.png" width="400" height="450" alt="Axis Road Hazard - Don't Drive Without It" id="hdr-img" />
